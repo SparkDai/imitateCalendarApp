@@ -7,7 +7,7 @@
 
 import UIKit
 
-protocol DaySelctorItemProtocol {
+protocol DaySelctorItemProtocol: AnyObject {
     var selector: Bool {set get}
     var date: Date {set get}
     var calendar: Calendar {set get}
@@ -18,18 +18,46 @@ class DaySelector: UIView {
 
     private var items = [UIView & DaySelctorItemProtocol]()
     
+    var calendar = Calendar.autoupdatingCurrent {
+        didSet {
+            updateItemsCalendar()
+        }
+    }
+    
+    var startDate : Date! {
+        didSet {
+            configure()
+        }
+    }
+    
+    private func updateItemsCalendar() {
+        items.forEach { (item) in
+            item.calendar = calendar
+        }
+    }
+    
+    var selectedDate: Date {
+        get {
+            
+        }
+        set {
+            
+        }
+    }
+    
+    
     override func layoutSubviews() {
         super.layoutSubviews()
         
         let itemCount = CGFloat(items.count)
         let size = items.first?.intrinsicContentSize ?? .zero
         
-        var pre = bounds.size.width - size.width * itemCount
-        let minX = pre / 2
+        var per = bounds.size.width - size.width * itemCount
+        let minX = per / 2
         
         for (i, item) in items.enumerated() {
             
-            var x = minX + (size.width + pre) * CGFloat(i)
+            var x = minX + (size.width + per) * CGFloat(i)
             
             let rightToLeft = UIView.userInterfaceLayoutDirection(for: semanticContentAttribute) == .rightToLeft
             if rightToLeft {
@@ -41,9 +69,12 @@ class DaySelector: UIView {
             
             item.frame = frame
         }
-        
-        
     }
     
+    private func configure() {
+        for (i, label) in items.enumerated() {
+            label.date = calendar.date(byAdding: .day, value: i, to: startDate)!
+        }
+    }
 
 }

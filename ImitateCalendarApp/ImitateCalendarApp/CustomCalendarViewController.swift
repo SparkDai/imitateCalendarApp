@@ -18,7 +18,7 @@ class CustomCalendarViewController: DayViewController {
     
     override func loadView() {
         super.loadView()
-        calendar.timeZone = TimeZone(identifier: "Europe/Paris")! // 没有Asia/Beijing，中国只有Asia/Shanghai、Asia/Chongqing
+        calendar.timeZone = TimeZone(identifier: "Asia/Shanghai")! // 没有Asia/Beijing，中国只有Asia/Shanghai、Asia/Chongqing
         
         dayView = DayView(calendar: calendar)
         view = dayView
