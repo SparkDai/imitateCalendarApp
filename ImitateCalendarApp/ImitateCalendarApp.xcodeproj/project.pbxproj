@@ -9,21 +9,39 @@
 /* Begin PBXBuildFile section */
 		1FE6F6A025BED09200380A74 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FE6F69F25BED09200380A74 /* AppDelegate.swift */; };
 		1FE6F6A225BED09200380A74 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FE6F6A125BED09200380A74 /* SceneDelegate.swift */; };
-		1FE6F6A425BED09200380A74 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FE6F6A325BED09200380A74 /* ContentView.swift */; };
 		1FE6F6A625BED09500380A74 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1FE6F6A525BED09500380A74 /* Assets.xcassets */; };
 		1FE6F6A925BED09500380A74 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1FE6F6A825BED09500380A74 /* Preview Assets.xcassets */; };
 		1FE6F6AC25BED09500380A74 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1FE6F6AA25BED09500380A74 /* LaunchScreen.storyboard */; };
+		1FE6F6B625BED80700380A74 /* DayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FE6F6B525BED80600380A74 /* DayViewController.swift */; };
+		1FE6F6B925BED8A700380A74 /* CustomCalendarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FE6F6B825BED8A700380A74 /* CustomCalendarViewController.swift */; };
+		1FE6F6C425C00D8800380A74 /* DayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FE6F6C325C00D8800380A74 /* DayView.swift */; };
+		1FE6F6C725C0109D00380A74 /* DayHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FE6F6C625C0109D00380A74 /* DayHeaderView.swift */; };
+		1FE6F6CA25C0125200380A74 /* DaySymbolsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FE6F6C925C0125200380A74 /* DaySymbolsView.swift */; };
+		1FE6F6CE25C01B0100380A74 /* Array+Shift.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FE6F6CD25C01B0100380A74 /* Array+Shift.swift */; };
+		1FE6F6D125C14BF400380A74 /* CalendarStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FE6F6D025C14BF400380A74 /* CalendarStyle.swift */; };
+		1FE6F6D425C14D1700380A74 /* UIColor+SystemColors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FE6F6D325C14D1700380A74 /* UIColor+SystemColors.swift */; };
+		1FE6F6DD25C2EF2700380A74 /* DaySelectorController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FE6F6DC25C2EF2700380A74 /* DaySelectorController.swift */; };
+		1FE6F6E125C2EF5500380A74 /* DaySelector.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FE6F6E025C2EF5500380A74 /* DaySelector.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		1FE6F69C25BED09200380A74 /* ImitateCalendarApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ImitateCalendarApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1FE6F69F25BED09200380A74 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1FE6F6A125BED09200380A74 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		1FE6F6A325BED09200380A74 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		1FE6F6A525BED09500380A74 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1FE6F6A825BED09500380A74 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		1FE6F6AB25BED09500380A74 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1FE6F6AD25BED09500380A74 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1FE6F6B525BED80600380A74 /* DayViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = DayViewController.swift; path = ../ImitateCalendarApp/DayViewController.swift; sourceTree = "<group>"; };
+		1FE6F6B825BED8A700380A74 /* CustomCalendarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomCalendarViewController.swift; sourceTree = "<group>"; };
+		1FE6F6C325C00D8800380A74 /* DayView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DayView.swift; sourceTree = "<group>"; };
+		1FE6F6C625C0109D00380A74 /* DayHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DayHeaderView.swift; sourceTree = "<group>"; };
+		1FE6F6C925C0125200380A74 /* DaySymbolsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DaySymbolsView.swift; sourceTree = "<group>"; };
+		1FE6F6CD25C01B0100380A74 /* Array+Shift.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Array+Shift.swift"; sourceTree = "<group>"; };
+		1FE6F6D025C14BF400380A74 /* CalendarStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = CalendarStyle.swift; path = ../ImitateCalendarApp/CalendarStyle.swift; sourceTree = "<group>"; };
+		1FE6F6D325C14D1700380A74 /* UIColor+SystemColors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+SystemColors.swift"; sourceTree = "<group>"; };
+		1FE6F6DC25C2EF2700380A74 /* DaySelectorController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DaySelectorController.swift; sourceTree = "<group>"; };
+		1FE6F6E025C2EF5500380A74 /* DaySelector.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DaySelector.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -41,6 +59,8 @@
 			isa = PBXGroup;
 			children = (
 				1FE6F69E25BED09200380A74 /* ImitateCalendarApp */,
+				1FE6F6BC25C0070500380A74 /* CalendarKit */,
+				1FE6F6CC25C01A1100380A74 /* Extensions */,
 				1FE6F69D25BED09200380A74 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -57,8 +77,8 @@
 			isa = PBXGroup;
 			children = (
 				1FE6F69F25BED09200380A74 /* AppDelegate.swift */,
+				1FE6F6B825BED8A700380A74 /* CustomCalendarViewController.swift */,
 				1FE6F6A125BED09200380A74 /* SceneDelegate.swift */,
-				1FE6F6A325BED09200380A74 /* ContentView.swift */,
 				1FE6F6A525BED09500380A74 /* Assets.xcassets */,
 				1FE6F6AA25BED09500380A74 /* LaunchScreen.storyboard */,
 				1FE6F6AD25BED09500380A74 /* Info.plist */,
@@ -73,6 +93,37 @@
 				1FE6F6A825BED09500380A74 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		1FE6F6BC25C0070500380A74 /* CalendarKit */ = {
+			isa = PBXGroup;
+			children = (
+				1FE6F6DB25C2EEBF00380A74 /* DaySelector */,
+				1FE6F6D025C14BF400380A74 /* CalendarStyle.swift */,
+				1FE6F6B525BED80600380A74 /* DayViewController.swift */,
+				1FE6F6C325C00D8800380A74 /* DayView.swift */,
+				1FE6F6C625C0109D00380A74 /* DayHeaderView.swift */,
+				1FE6F6C925C0125200380A74 /* DaySymbolsView.swift */,
+			);
+			path = CalendarKit;
+			sourceTree = "<group>";
+		};
+		1FE6F6CC25C01A1100380A74 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				1FE6F6CD25C01B0100380A74 /* Array+Shift.swift */,
+				1FE6F6D325C14D1700380A74 /* UIColor+SystemColors.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		1FE6F6DB25C2EEBF00380A74 /* DaySelector */ = {
+			isa = PBXGroup;
+			children = (
+				1FE6F6DC25C2EF2700380A74 /* DaySelectorController.swift */,
+				1FE6F6E025C2EF5500380A74 /* DaySelector.swift */,
+			);
+			path = DaySelector;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -145,9 +196,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1FE6F6D425C14D1700380A74 /* UIColor+SystemColors.swift in Sources */,
 				1FE6F6A025BED09200380A74 /* AppDelegate.swift in Sources */,
+				1FE6F6C425C00D8800380A74 /* DayView.swift in Sources */,
+				1FE6F6E125C2EF5500380A74 /* DaySelector.swift in Sources */,
+				1FE6F6C725C0109D00380A74 /* DayHeaderView.swift in Sources */,
+				1FE6F6D125C14BF400380A74 /* CalendarStyle.swift in Sources */,
+				1FE6F6DD25C2EF2700380A74 /* DaySelectorController.swift in Sources */,
+				1FE6F6B925BED8A700380A74 /* CustomCalendarViewController.swift in Sources */,
+				1FE6F6CE25C01B0100380A74 /* Array+Shift.swift in Sources */,
 				1FE6F6A225BED09200380A74 /* SceneDelegate.swift in Sources */,
-				1FE6F6A425BED09200380A74 /* ContentView.swift in Sources */,
+				1FE6F6B625BED80700380A74 /* DayViewController.swift in Sources */,
+				1FE6F6CA25C0125200380A74 /* DaySymbolsView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -291,6 +351,7 @@
 				DEVELOPMENT_TEAM = 5WE3W98EVA;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = ImitateCalendarApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -312,6 +373,7 @@
 				DEVELOPMENT_TEAM = 5WE3W98EVA;
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = ImitateCalendarApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
