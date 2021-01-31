@@ -37,7 +37,6 @@ class DayHeaderView: UIView {
     }
     
     override func layoutSubviews() {
-        superview?.layoutSubviews()
         daySymbolsView.frame = CGRect(origin: .zero, size: CGSize(width: bounds.width, height: daySymbolsViewHeight))
     }
     
