@@ -36,9 +36,10 @@ class DaySelector: UIView {
         }
     }
     
-    var selectedDate: Date {
+    var selectedDate: Date? {
         get {
-            
+            // filter叫做过滤器
+            return items.filter{$0.selector == true}.first?.date as Date?
         }
         set {
             
